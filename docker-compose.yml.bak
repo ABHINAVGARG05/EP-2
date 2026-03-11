@@ -1,0 +1,16 @@
+services:
+  backend:
+    build: ./backend
+    container_name: fwds-backend
+    ports:
+      - "8080:8080"
+    depends_on:
+      - ml-service
+    environment:
+      - ML_URL=http://ml-service:8000
+
+  ml-service:
+    build: ./ml-service
+    container_name: fwds-ml
+    ports:
+      - "8000:8000"

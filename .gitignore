@@ -7,8 +7,10 @@ backend/vendor/
 # ── Node.js ─────────────────────────────────────────
 log-service/node_modules/
 log-service/npm-debug.log*
+log-service/pnpm-debug.log*
 log-service/yarn-error.log
 log-service/.npm
+log-service/.pnpm-store/
 
 # ── Python / ML service ─────────────────────────────
 ml-service/__pycache__/
@@ -31,7 +33,7 @@ ml-service/scaler.pkl
 ml-service/dataset/
 
 # ── Docker ──────────────────────────────────────────
-docker-compose.yml.bak
+#docker-compose.yml.bak
 .docker/
 
 # ── OS / editor ─────────────────────────────────────
