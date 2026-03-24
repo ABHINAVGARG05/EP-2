@@ -9,7 +9,7 @@ const char* ssid = "shree";
 const char* password = "1234567890";
 
 // ---------------- SERVER ----------------
-const char* serverUrl = "http://51.21.167.12:8080/api/sensor";
+const char* serverUrl = "http://13.51.45.109/api/sensor";
 
 // ---------------- DEVICE ----------------
 String DEVICE_ID = "ESP32-NODE-1";
